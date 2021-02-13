@@ -41,5 +41,17 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+  <id>guruchirag249</id>
+  <url>https://pkgs.dev.azure.com/guruchirag249/_packaging/guruchirag249/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+    </distributionManagement>
 </project>
 
